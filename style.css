@@ -1,0 +1,115 @@
+html, body, ul .main{
+font-family: 'Maven pro', sans-serif;
+color: white;
+font-size: 12px;
+}
+
+
+.background{
+  height: 100vh;
+  /*width: 1180px;*/
+  /*height: 100%;*/
+  width: 100%;
+  background-image: url(./img/main-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+nav{
+  padding-top: 10px;
+  height: 50px;
+  width: 100%;
+}
+ul{
+  display:none;
+}
+.smallmenu{
+  height: 50px;
+  width: 100%;
+  padding: 2px 15px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menuicon{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-image: url(./img/menu.png);
+background-size: cover;
+}
+.twitterlogo{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-image: url(./img/twittericon.png);
+  background-size: cover;
+  float: right;
+
+}
+.facebooklogo{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-image: url(./img/facebooklogo.png);
+  background-size: cover;
+  float: right;
+
+}
+.main {
+font-size: 3em;
+text-align: center;
+margin-top: 20vh;
+
+}
+#Your {
+font-size: 120px;
+
+}
+.arrowfooter{
+  height: 41vh;
+  width: 100%;
+  position: relative;
+
+
+}
+.arrow {
+  height: 30px;
+  width: 30px;
+  background-image: url(./img/arrow.png);
+  background-size: cover;
+  transform: rotateZ(180deg);
+  vertical-align: bottom;
+  position: relative;
+  left: 50%;
+  bottom: -21vh;
+
+
+}
+@media (min-width: 600px) {
+  .smallmenu{
+    display: none;
+  }
+  ul {
+      padding-top: 50px;
+      height: 50px;
+      width: 100%;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: center;
+      font-size: 4em;
+      font-family: 'Maven pro', sans-serif;
+  }
+  .main {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 25vh;
+  }
+  #Your {
+  font-size: 160px;
+  }
+}
+
+
+}
